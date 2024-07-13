@@ -184,5 +184,13 @@ font-size: 30px;
   @media screen and (max-width: 576px){
     .skills-container{
         flex-direction: column;
+        
     }
+  }
+  @media screen  and (max-width:576px){
+    .skills-container ,.resume-container{
+        background-color: #FD6E0A;
+       flex-direction: column;  
+    }
+    
   }
